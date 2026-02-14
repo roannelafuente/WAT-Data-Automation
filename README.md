@@ -67,25 +67,30 @@ pip install -r requirements.txt
 ---
 
 ## ⚡ Usage Workflow
-- Load Input File
-- Select a raw .wat file (e.g., [Dummy data.wat](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.wat) ).
-- Run Automation
-- Converts the .wat file into Excel deliverables.
-- Automatically generates:
-• Per Unit Data sheet
-• Per Wafer Summary sheet
-- Generate Summary Sheet
-- Consolidates statistics per parameter into a Summary sheet.
-- Includes Spec HI/LO, Mean, Std Dev, CpK, CpK Hi, and CpK Lo.
-- Professionally formatted with merged headers, auto‑fit columns, borders, and fills.
-- Explore Histogram Plot
-- Use the interactive GUI to browse parameters via radio buttons.
-- View histograms with normal curve overlays (±3σ).
-- Cp/Cpk statistics displayed in a side panel for quick capability analysis.
-- Review Outputs
-- Excel workbook: [Dummy data.xlsx](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.xlsx)
-- Dashboard interface: [WAT Data Automation Dashboard.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/WAT%20Data%20Automation%20Dashboard.png)
-- Capability plot: [Sample capability plot output.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Sample%20capability%20plot%20output.png)
+
+1. **Load Input File**  
+   Select a raw `.wat` file (e.g., [Dummy data.wat](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.wat)).
+
+2. **Run Automation**  
+   Converts the `.wat` file into Excel deliverables.  
+   Automatically generates:  
+   • Per Unit Data sheet  
+   • Per Wafer Summary sheet  
+
+3. **Generate Summary Sheet**  
+   Consolidates statistics per parameter into a Summary sheet.  
+   Includes Spec HI/LO, Mean, Std Dev, CpK, CpK Hi, and CpK Lo.  
+   Professionally formatted with merged headers, auto‑fit columns, borders, and fills.
+
+4. **Explore Histogram Plot**  
+   Use the interactive GUI to browse parameters via radio buttons.  
+   View histograms with normal curve overlays (±3σ).  
+   Cp/Cpk statistics displayed in a side panel for quick capability analysis.
+
+5. **Review Outputs**  
+   - Excel workbook: [Dummy data.xlsx](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.xlsx)  
+   - Dashboard interface: [WAT Data Automation Dashboard.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/WAT%20Data%20Automation%20Dashboard.png)  
+   - Capability plot: [Sample capability plot output.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Sample%20capability%20plot%20output.png)`
  
 ---
  
