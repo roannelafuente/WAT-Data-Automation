@@ -125,4 +125,5 @@ Release v1.0.0 with histogram viewer and spec mapping is available here:
 ## 👩‍💻 Author
 **Rose Anne Lafuente**  
 Licensed Electronics Engineer | Product Engineer II | Python Automation  
-GitHub: [@roannelafuente](https://github.com/roannelafuente)
+GitHub: [@roannelafuente](https://github.com/roannelafuente)  
+LinkedIn: [Rose Anne Lafuente](www.linkedin.com/in/rose-anne-lafuente)
