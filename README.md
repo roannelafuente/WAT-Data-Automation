@@ -41,7 +41,7 @@ This tool converts raw `.wat` files into structured Excel workbooks, generates p
 ### Histogram Plot (Capability Plot)
 - Uses the converted `.wat` workbook as the reference for plotting.  
 - Interactive histogram viewer with radio buttons to browse parameters.  
-- Normal curve overlay extended to ±4σ for accurate visualization.  
+- Normal curve overlay extended to ±3σ for accurate visualization.  
 - Cp, Cpk, Cpk Hi, and Cpk Lo statistics displayed in a side panel.  
 - GUI interface with scrollable logs, success/error messages, and polished layout.
 
