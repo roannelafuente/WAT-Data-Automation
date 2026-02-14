@@ -1,70 +1,12 @@
 # WAT Data Automation Tool – v1.0.0
 
-##📖 Description
+## 📖 Description
 First release of the WAT Data Automation Tool, designed to automate semiconductor wafer acceptance test (WAT) deliverables.  
-This tool converts raw `.wat` files into structured Excel workbooks, generates per‑Unit and per‑Wafer summaries, validates specifications, and produces interactive capability plots with Cp/Cpk statistics. Built with Python, Tkinter, OpenPyXL, and Matplotlib, it streamlines engineering workflows and ensures reproducible, audit‑ready insights.
+This tool converts raw `.wat` files into structured Excel workbooks, generates per‑Unit and per‑Wafer summaries, validates specifications, and produces interactive capability plots with Cp/Cpk statistics. Built with Python, Tkinter, OpenPyXL, Matplotlib, and NumPy, it streamlines engineering workflows and ensures reproducible, audit‑ready insights.
 
 ---
 
-##🚀 Features
-
-### Per Unit Data
-- Converts raw WAT data into a **per Unit Data** sheet.  
-- Captures wafer IDs, parameters, and site measurements.  
-- Provides structured formatting for traceability and analysis.
-
-### Per Wafer 
-- Automatically builds a **per Wafer** sheet with:  
-  - Site values transposed per wafer  
-  - AVERAGE and STDEV formulas  
-  - Spec HI, Spec LO, and Unit mapping  
-- Professional formatting with merged headers, auto‑fit columns, and borders.
-
-### Summary Sheet
-- Generates a **Summary** sheet consolidating key statistics per parameter.  
-- Includes:
-  - **Parameter** name  
-  - **Spec HI** and **Spec LO** limits  
-  - **Mean** and **Standard Deviation** values  
-  - **CpK**, **CpK Hi**, and **CpK Lo** capability indices  
-- Provides a quick, at‑a‑glance overview of wafer performance and spec compliance.  
-- Professionally formatted with **merged headers, auto‑fit columns, borders, and cell fills** for readability and presentation‑ready output.  
-- Designed for audit‑ready reporting and faster yield analysis.
-
-### Histogram Plot (Capability Plot)
-- Interactive histogram viewer with radio buttons to browse parameters.  
-- Normal curve overlay extended to ±4σ for accurate visualization.  
-- Cp, Cpk, Cpk Hi, and Cpk Lo statistics displayed in a side panel.  
-- GUI interface with scrollable logs, success/error messages, and polished layout.
-
----
-
-##🛠️ Tech Stack
-- Python (automation & GUI)  
-- Tkinter (user interface)  
-- OpenPyXL (Excel file handling)  
-- Matplotlib (histogram visualization)  
-- NumPy (statistics)  
-
----
-
-##📦 Required Packages
-The dependencies are listed in [`requirements.txt`](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/requirements.txt).
-
-Install them with:
-```bash
-pip install -r requirements.txt
-```
-Here’s the complete README with your preferred Usage Workflow style integrated — step‑by‑step with numbered items and bullet points under each. This matches the format you liked:
-# WAT Data Automation Tool – v1.0.0
-
-##📖 Description
-First release of the WAT Data Automation Tool, designed to automate semiconductor wafer acceptance test (WAT) deliverables.  
-This tool converts raw `.wat` files into structured Excel workbooks, generates per‑Unit and per‑Wafer summaries, validates specifications, and produces interactive capability plots with Cp/Cpk statistics. Built with Python, Tkinter, OpenPyXL, and Matplotlib, it streamlines engineering workflows and ensures reproducible, audit‑ready insights.
-
----
-
-##🚀 Features
+## 🚀 Features
 
 ### Per Unit Data
 - Converts raw WAT data into a **per Unit Data** sheet.  
@@ -106,7 +48,7 @@ This tool converts raw `.wat` files into structured Excel workbooks, generates p
 
 ---
 
-##📦 Required Packages
+## 📦 Required Packages
 The dependencies are listed in [`requirements.txt`](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/requirements.txt).
 
 Install them with:
@@ -116,7 +58,7 @@ pip install -r requirements.txt
 
 ---
 
-##⚡ Usage Workflow
+## ⚡ Usage Workflow
 - Load Input File
 - Select a raw .wat file (e.g., [Dummy data.wat](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.wat) ).
 - Run Automation
@@ -139,7 +81,7 @@ pip install -r requirements.txt
  
 ---
  
-##📂 Sample Files
+## 📂 Sample Files
 - Input: [Dummy data.wat](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.wat)  
 - Output: [Dummy data.xlsx](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Dummy%20data.xlsx)  
 - Histogram Screenshot: [Sample capability plot output.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Sample%20capability%20plot%20output.png)  
@@ -149,7 +91,7 @@ These files are included for demonstration purposes so recruiters and collaborat
 
 ---
 
-##📸 Screenshots
+## 📸 Screenshots
 - **Dashboard Interface**  
   ![WAT Data Automation Dashboard](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/WAT%20Data%20Automation%20Dashboard.png)
 
@@ -158,7 +100,7 @@ These files are included for demonstration purposes so recruiters and collaborat
 
 ---
 
-##🌟 Impact
+## 🌟 Impact
 - Reduces manual effort in semiconductor WAT deliverables preparation by automating .wat → Excel conversions.
 - Ensures reproducibility and audit‑ready insights with deterministic spec mapping.
 - Improves accuracy in yield and defect tracking through Cp/Cpk capability statistics.
@@ -166,9 +108,9 @@ These files are included for demonstration purposes so recruiters and collaborat
 
 ---
 
-##📦 Download
+## 📦 Download
 Release v1.0.0 with histogram viewer and spec mapping is available here:  
-➡️ [Download WAT Data Automation Tool v1.0.0](https://github.com/roannelafuente/WAT-Data-Automation/releases/tag/v1.0.0)
+➡️ [Download WAT Data Automation Tool v1.0.0](https://github.com/roannelafuente/WAT-Data-Automation/releases/download/v1.0.0/WAT.Data.Automation.zip)
 
 ---
 
