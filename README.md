@@ -8,30 +8,38 @@ This tool converts raw `.wat` files into structured Excel workbooks, generates p
 
 ## 🚀 Features
 
+### .wat to Excel Conversion
+- Core functionality: converts raw `.wat` files into structured **Excel workbooks**.  
+- Workbook naming is dynamic, e.g., `Wafer 1~N` where *N* is fetched from the `.wat` file.  
+- This converted workbook serves as the **reference source** for generating:
+  - **Per Unit Data** sheet  
+  - **Per Wafer Summary** sheets  
+  - **Summary Sheet**  
+  - **Histogram Plot (Capability Plot)**
+
 ### Per Unit Data
-- Converts raw WAT data into a **per Unit Data** sheet.  
-- Captures wafer IDs, parameters, and site measurements.  
-- Provides structured formatting for traceability and analysis.
+- Extracts wafer IDs, parameters, and site measurements from the converted `.wat` file.  
+- Outputs a structured **Per Unit Data** sheet for traceability and analysis.  
 
 ### Per Wafer
-- Automatically builds a **per Wafer** sheet with:  
-  - Site values transposed per wafer  
-  - AVERAGE and STDEV formulas  
-  - Spec HI, Spec LO, and Unit mapping  
+- Automatically builds a per Wafer sheet with:
+- Site values transposed per wafer
+- AVERAGE and STDEV formulas
+- Spec HI, Spec LO, and Unit mapping
 - Professional formatting with merged headers, auto‑fit columns, and borders.
 
 ### Summary Sheet
-- Generates a **Summary** sheet consolidating key statistics per parameter.  
+- Consolidates statistics per parameter from the converted `.wat` workbook.  
 - Includes:
   - **Parameter** name  
   - **Spec HI** and **Spec LO** limits  
   - **Mean** and **Standard Deviation** values  
   - **CpK**, **CpK Hi**, and **CpK Lo** capability indices  
+- Professionally formatted with merged headers, auto‑fit columns, borders, and fills.  
 - Provides a quick, at‑a‑glance overview of wafer performance and spec compliance.  
-- Professionally formatted with **merged headers, auto‑fit columns, borders, and cell fills** for readability and presentation‑ready output.  
-- Designed for audit‑ready reporting and faster yield analysis.
 
 ### Histogram Plot (Capability Plot)
+- Uses the converted `.wat` workbook as the reference for plotting.  
 - Interactive histogram viewer with radio buttons to browse parameters.  
 - Normal curve overlay extended to ±4σ for accurate visualization.  
 - Cp, Cpk, Cpk Hi, and Cpk Lo statistics displayed in a side panel.  
