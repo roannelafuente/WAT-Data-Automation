@@ -23,9 +23,9 @@ This tool converts raw `.wat` files into structured Excel workbooks, generates p
 
 ### Per Wafer
 - Automatically builds a per Wafer sheet with:
-- Site values transposed per wafer
-- AVERAGE and STDEV formulas
-- Spec HI, Spec LO, and Unit mapping
+  - Site values transposed per wafer
+  - AVERAGE and STDEV formulas
+  - Spec HI, Spec LO, and Unit mapping
 - Professional formatting with merged headers, auto‑fit columns, and borders.
 
 ### Summary Sheet
