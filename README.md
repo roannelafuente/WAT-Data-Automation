@@ -127,7 +127,7 @@ Release v1.0.0 with histogram viewer and spec mapping is available here:
 
 ▶️ **Usage**
 - Run the .exe to launch the dashboard and 
-explore the features.]
+explore the features.
 ---
 
 ## 👩‍💻 Author
