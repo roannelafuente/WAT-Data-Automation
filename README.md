@@ -100,7 +100,7 @@ pip install -r requirements.txt
 - Histogram Screenshot: [Sample capability plot output.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/Sample%20capability%20plot%20output.png)  
 - Dashboard Screenshot: [WAT Data Automation Dashboard.png](https://github.com/roannelafuente/WAT-Data-Automation/blob/main/WAT%20Data%20Automation%20Dashboard.png)  
 
-These files are included for demonstration purposes so recruiters and collaborators can quickly test the workflow and visualize the results.
+These files are dummy inputs included for demonstration purposes only. They are synthetic examples and do not contain any client or company data. Their purpose is to allow recruiters and collaborators to quickly test the workflow and visualize the results.
 
 ---
 
