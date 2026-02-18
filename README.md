@@ -8,7 +8,8 @@ This tool converts raw `.wat` files into structured Excel workbooks, generates p
 
 ## 📌 Disclaimer  
 This project is a portfolio demonstration built entirely with synthetic/dummy data.  
-All file names, headers, workbook structures, and examples are generic and not connected to any proprietary intellectual property.  
+While the workbook structure and formatting are inspired by typical engineering workflows, all headers, values, and examples have been replaced with generic placeholders.  
+No proprietary intellectual property, client data, or company-specific conventions are included.  
 Its sole purpose is to showcase automation techniques, reproducible workflows, and technical skills in Python, Tkinter, OpenPyXL, Matplotlib, and NumPy.
 
 ---
